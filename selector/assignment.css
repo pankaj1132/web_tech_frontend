@@ -1,0 +1,22 @@
+/* thead th {
+    background-color: green;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+    color: green;
+}
+
+
+table{
+    border-collapse: collapse;
+    box-shadow: gray 5px 5px 5px;
+}
+ 
+td:hover{
+    color: yellowgreen;
+   
+    box-shadow: yellowgreen 5px 5px 5px;
+
+} */

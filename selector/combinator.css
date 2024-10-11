@@ -1,0 +1,65 @@
+/* !combinator sleector  */
+/* 
+? 1. desecendant selector
+this selector selects all elements that are descendants of a specified element.
+it will target all the element of the specified element.
+*/
+
+
+
+/* 2. direct chlid selector
+this selector selects all elements that are the direct children of a specified element.
+
+*/
+
+/* 
+section p{
+
+        color: red;
+}
+
+section article{
+
+        color: green;
+}
+section > p{
+
+        color: blue;
+}
+
+
+article > p{
+
+        color: yellow;
+}
+article {
+    
+            color: pink;
+} */
+/* section > article > p{
+
+        color: orange;
+} */
+
+
+section ~ aside {
+    color: white;
+    background-color: black;
+
+}
+
+
+section + aside {
+    color: white;
+    background-color: rgb(30, 139, 74);
+
+}
+section+p{
+    color: white;
+    background-color: rgb(152, 38, 38);
+}
+
+article ~ p{
+    color: white;
+    background-color: rgb(100, 38, 180);
+}

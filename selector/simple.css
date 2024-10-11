@@ -1,0 +1,60 @@
+/* simple tages */
+
+/* 1. tages names  */
+
+h1{
+    color: aqua;
+    background-color: beige;
+}
+
+
+/* grouping */
+
+h1 , h2 , h3{
+    color: bisque;
+    background-color: blueviolet;
+}
+
+
+/* universal */
+
+*{
+    color: aqua;
+    background-color: azure;
+}
+
+/* id name */
+/* #demo{
+    color: aqua;
+    background-color: blue;
+
+}
+#demo{
+    color: chocolate;
+    background-color: aqua;
+} */
+
+
+
+
+/* class name */
+
+
+.demo{
+    color: aquamarine;
+    background-color: black;
+}
+.demo2{
+    color: yellow;
+    background-color: black;
+}
+
+.demo4{
+    color:forestgreen 
+    ;
+    background-color: bisque;
+}
+.demo3{
+    color: burlywood;
+    background-color: cadetblue;
+}

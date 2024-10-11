@@ -1,0 +1,55 @@
+section p:first-child{
+    background-color: aquamarine;
+    color:bisque;
+}
+
+section p:last-child{
+    background-color: blue;
+    color: aquamarine;
+}
+section p:nth-child(3n){
+    background-color: brown;
+    color: cadetblue;
+}
+section p:nth-child(odd){
+    background-color: chocolate;
+
+    color: chartreuse;
+}
+
+
+
+
+#container1 p:first-child{
+    background-color: aquamarine;
+    color:bisque;
+}
+
+#container1 p:last-child{
+    background-color: blue;
+    color: aquamarine;
+}
+#container1 p:nth-child(3n){
+    background-color: brown;
+    color: cadetblue;
+}
+#container1 p:nth-child(odd){
+    background-color: chocolate;
+
+    color: chartreuse;
+}
+
+
+
+
+a:link{
+    color: blue;
+}
+
+
+a:visited{
+    color: hotpink;
+}
+a:active{
+    color: gold;
+}

@@ -1,0 +1,40 @@
+/*
+text properties
+  */
+
+  p{
+     color: blue;
+     text-align: left;
+
+     /* it will specify where to align the content ina wedpage */
+
+
+
+     text-transform: capitalize;
+/* normal (d) , lowercase , uppercase , capitalise */
+
+
+     text-decoration-line: underline ;
+     text-decoration-color: aqua;
+     text-decoration-style:double ;
+
+     text-indent: 50px;
+     text-wrap: wrap;
+
+     letter-spacing: 2px;
+     word-spacing: 50px;
+     line-height: 30px;
+
+
+  }
+
+  div{
+    line-height: 50px;
+
+  }
+
+  h1{
+    text-align: center;
+    text-shadow: 4px 3px 5px gray;
+  }
+  
