@@ -1,0 +1,17 @@
+#FirstTable tr:first-child{
+    background-color: green;
+    color: white;
+}
+#FirstTable tr:nth-child(3),#FirstTable tr:nth-child(5),#FirstTable tr:nth-child(7),#FirstTable tr:nth-child(9){
+    color: rgb(28, 112, 28);
+    background-color:rgb(194, 189, 189);
+    font-weight: 600;
+}
+
+#FirstTable{
+    border-collapse: collapse;
+    box-shadow: 0px 3px 2px green;
+}
+#FirstTable tr:hover{
+    border: 2px solid black;
+}

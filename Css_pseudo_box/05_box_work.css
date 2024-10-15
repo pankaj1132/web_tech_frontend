@@ -1,0 +1,25 @@
+#fourthTable tr td:nth-child(3){
+    color:blue;
+    background-color: lightblue;
+}
+
+/* #fourthTable tr td {
+    background-color: red;
+} */
+
+
+
+
+#deprecated{
+    color:blue;
+    background-color: lightblue;
+}
+
+.yes{
+    color: green;
+    background-color: lightgreen;
+}
+.no{
+    color: black;
+    background-color:red;
+}
