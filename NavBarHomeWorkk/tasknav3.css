@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+
+}
+nav{
+    background-color: rgb(238, 232, 232);
+    color: rgb(60, 57, 57);
+    
+    
+}
+div{
+    display: inline-block;
+    font-size: large;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+article{
+    display: inline-block;
+    font-size: large;
+    margin-right: 10px;
+}
+b{
+    color: black;
+    font-size: large;
+}
+#mid{
+    margin-left: 420px;
+}
+#end{
+    margin-left: 450px;
+    
+}

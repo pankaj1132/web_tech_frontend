@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+nav{
+    display: inline-block;
+}
+div{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.start{
+    padding-left: 50px;
+    font-size: 30px;
+}
+.end{
+    padding-left: 650px;
+}
+.text{
+    font-size: small;
+}
+

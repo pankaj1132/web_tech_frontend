@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+nav{
+    background-color: black;
+    color: white;
+    font-size: normal;
+    
+    
+}
+div{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: 100 !important;
+
+}
+#mid{
+    margin-left: 370px;
+}
+#end{
+    margin-left: 440px;
+    display: inline-block;
+
+}
+b{
+    font-size: large;
+    
+}

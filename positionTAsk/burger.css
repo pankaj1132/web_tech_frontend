@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: #827811;
+    
+   position: absolute;
+   top: 30px;
+   left: 200px;
+}
+
+img[alt="burger"]{
+    position: absolute;
+  z-index: 10;
+    top: 150px;
+    left: 450px;
+}
+
+img[alt="drink"]{
+    position: absolute;
+  z-index: 2;
+    top: 33px;
+    left: 781px;
+}
+img[alt="french"]{
+    position: absolute;
+    z-index: 3;
+    top: 78px;
+    left: 331px;
+}
+.circle{
+    height: 220px;
+    width: 220px;
+    z-index: 20;
+   
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 355px;
+    left: 319px;
+}
+.dash{
+    height: 180px;
+    width: 180px;
+    border: bisque dashed;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 22px;
+    left: 19px; 
+}
+
+
+
+.detail{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+
+}
+
+
+.price{
+    display: inline-block;
+    color: wheat;
+    font-size: 50px;
+    
+}
+.only{
+    position: absolute;
+    top: 45px;
+    left: -3px;
+}

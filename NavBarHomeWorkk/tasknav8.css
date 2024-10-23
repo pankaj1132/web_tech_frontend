@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+article{
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+div{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px ;
+    margin-right: 15px;
+    
+}
+nav{
+    display: inline-block;
+    
+}
+#art{
+    font-size: x-large;
+    padding-left: 30px;
+    
+}
+
+#mid{
+    margin-left: 830px;
+    
+}
+#mid div:hover{
+    background-color: bisque;
+    color: black;
+}
+
+    

@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+div{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   
+    
+}
+nav{
+    display: inline-block;
+    
+}
+#start{
+    background-color: white;
+    font-size: large;
+    margin-left: 20px;
+    
+    
+}
+#mid{
+    color: blue;
+    font-size: small;
+    margin-left: 500px;
+    padding-right: 10px;
+    
+}
+#mid div:hover{
+    background-color: blue;
+    color: white;
+    text-align: justify;
+    text-decoration: solid underline;
+    padding-right: 10px;
+}
+#art{
+    margin-left: -9px;
+}

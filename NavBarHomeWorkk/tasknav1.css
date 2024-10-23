@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+
+}
+div{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    box-sizing: content-box;
+    font-size: large;
+    margin-right: 31px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+nav{
+    background-color: blue;
+    
+}
+
+#about{
+    margin-left: 893px;
+        
+}

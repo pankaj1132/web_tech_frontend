@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+nav{
+    display: inline-block;
+    background-color: black;
+    color: white;
+   
+}
+div{
+    display: inline-block;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.start{
+    padding-left: 50px;
+}
+.end{
+    padding-left: 700px;
+    
+}
+article{
+    background-color: black;
+
+}
+input{
+    background-color: black;
+    color: grey;
+    width: 150px;
+}
+.log{
+      background-color: black;
+        color: white;
+        border: 2px white solid;
+        border-radius: 3px;
+} 
+.sign{
+    background-color:goldenrod;
+    color: black;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+}   
+   

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+section{
+    background-color: rgb(245, 245, 248);
+    color: rgb(7, 6, 8);
+    
+    
+}
+#start{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-size: x-large;
+    
+}
+#mid{
+ margin-left: 820px;
+ 
+ 
+ 
+
+}
+article{
+    display: inline-block;
+
+}
+div{
+    display: inline-block;
+    margin-right: 24px;
+}

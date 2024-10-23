@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+section{
+    background-color: blue;
+    color: white;
+    
+}
+article{
+    display: inline-block;
+    font-size: x-large;
+    color: white;
+}
+div{
+    display: inline-block;
+    
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    
+}
+#mid{
+    color: rgb(221, 212, 212);
+    margin-left: 540px;
+    font-size: 15px;
+    
+
+}
+#start{
+    padding-left:15px;
+}
+
