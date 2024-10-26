@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+#container{
+    display: grid;
+    border: solid rgb(16, 15, 15);
+    height: 500px;
+    width: 800px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
+    gap: 10px;
+    
+    
+}
+#container div{
+    border: rgb(14, 137, 231) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#container :nth-child(1){
+    background-color:rgb(56, 131, 26);
+    
+    grid-column: 1/4;
+    
+    
+}
+#container :nth-child(2){
+    background-color:rgb(195, 24, 118);
+    grid-row: 2/4;
+    
+}
+#container :nth-child(3){
+    background-color: rgb(49, 239, 32);
+    grid-column: 2/4;
+}
+#container :nth-child(4){
+    background-color: rgb(210, 7, 193);
+}
+#container :nth-child(5){
+    background-color: rgb(210, 7, 193);
+}
+#container :nth-child(6){
+    background-color: rgb(106, 255, 0);
+    grid-column: 1/4;
+}

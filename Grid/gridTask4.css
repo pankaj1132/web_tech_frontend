@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+#container{
+    display: grid;
+    background-color: rgb(27, 45, 165);
+    border: yellowgreen;
+    height: 500px;
+    width: 800px;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    grid-template-columns: repeat(3,1fr);
+}
+#container div{
+    border: white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 33, 33);
+    font-weight: 800;
+}
+#container :nth-child(1){
+    grid-column: 1/4;
+}
+#container :nth-child(5){
+    grid-column: 1/4;
+
+
+}

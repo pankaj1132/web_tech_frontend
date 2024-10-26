@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+#container{
+    display: grid;
+    border: black solid;
+    height: 400px;
+    width: 800px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows:repeat(4,1fr);
+    gap: 5px;
+
+
+}
+#container div{
+    color: white;
+    border: solid pink;
+
+}
+#container :nth-child(1){
+    background-color: orangered;
+    grid-row: 1/3;
+}
+#container :nth-child(2){
+    background-color: rgb(105, 150, 53);
+    grid-column: 2/4;
+}
+#container :nth-child(3){
+    background-color: rgb(23, 34, 191);
+    
+}
+#container :nth-child(4){
+    background-color: rgb(198, 233, 1);
+    
+}
+#container :nth-child(5){
+    background-color: rgb(0, 208, 255);
+    grid-row: 3/5;
+}
+#container :nth-child(6){
+    background-color: rgb(0, 208, 255);
+    grid-column: 2/4;
+}
+#container :nth-child(7){
+    background-color: rgb(0, 208, 255);
+}
+#container :nth-child(8){
+    background-color: rgb(0, 208, 255);
+}

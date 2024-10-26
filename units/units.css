@@ -1,0 +1,57 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html{
+    font-size: 5vw;
+}
+#secondContainer{
+    font-size: 0.8em;
+}
+
+#secondContainer div{
+   font-size: 0.5em;
+   color: blue;
+}
+
+#secondContainer div p {
+    font-size: 0.5em;
+    color: red;
+ 
+}
+
+
+
+
+
+
+
+/* 
+#first_container{
+    border: solid red ;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#first_container article{
+    border:solid blue;
+    height: 50%;
+    width: 50%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#first_container article div{
+    border:solid green;
+    height: 50%;
+    width: 50%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+} */

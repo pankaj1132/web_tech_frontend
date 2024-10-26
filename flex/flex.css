@@ -19,11 +19,11 @@
 #container div {
     height: 50px;
     width: 300px;
-
+padding: 20px auto;
     flex: 1;
     background-color: red;
     border: solid black;
-    color: white;
+    color: black;
     text-align: center;
 }
 
