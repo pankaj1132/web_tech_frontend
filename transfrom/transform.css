@@ -1,0 +1,73 @@
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    border: solid red;
+    background-color: aqua;
+    /* transform: translate(200px , 200px); */
+    margin: 100px auto;
+    /* transform: scale(0.7,2); */
+   /* transform: skew(45deg , 45deg); */
+
+   /* skew contain x y  z axis */
+   transform: rotate(45deg);
+   /* transform: rotateX('angle');
+   transform: rotateY('angle');
+   transform: rotateZ('angle'); */
+   /* it also take x y z axis  */
+}
+
+#box2{
+    border:solid blue;
+
+    height: 250px;
+    width: 250px;
+    background-color: cadetblue;
+    margin: 100px auto;
+
+}
+
+#box2:hover{
+    /* transform: rotate(45deg);
+    transform: scaleX(1.2)
+    ;
+    transform: skew(7deg); */
+    
+    transform: rotate(45deg ) scale(1.2) skew(7deg);
+    transform: translate(100px , 200px);
+    border:solid rgb(255, 72, 0);
+    border-radius: 50%;
+
+    height: 450px;
+    width: 450px;
+    background-color: greenyellow;
+    /* transition transition-property transition-duration transition-delay: ; */
+    transition: all 9s 0.7s;
+
+
+
+    /* !transition
+    shorthand transition-property: ; */
+    /* ? 1. transition-property: 
+    specify the names of the css property to which the transiton is applied */
+
+    /* ? 2. transition-duration: 
+    specofies how long the transition should take */
+
+
+    /* ~ 3. transition-delay: ;
+    define when the transitio will start */
+
+    /* ~ 4. transition-timing-function: ;
+    specifies the speed of transition */
+
+
+
+
+
+
+
+}
