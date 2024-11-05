@@ -1,0 +1,73 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    
+    color: green;
+}
+
+/* @media print {
+    h1{
+        color: blue;
+    }
+    p{
+        color: yellow;
+    }
+    
+} */
+
+
+
+@media  screen and (max-width: 1600px) and (min-width: 800px) {
+    h1{
+
+        color: blue;
+    }
+    p{
+        color: yellow;
+    }
+    h1::after{
+        content: "laptop";
+    }
+    body{
+        background-color: rgba(238, 145, 59, 0.922);
+    }
+    
+}
+@media  screen and (max-width: 400px) and (min-width: 0px) {
+    h1{
+        color: rgb(255, 191, 0);
+    }
+    h1::after{
+        content: "mobile";
+    }
+    p{
+        color: rgb(255, 0, 81);
+
+    }
+    body{
+        background-color: rgba(0, 255, 60, 0.096);
+    }
+}
+@media  screen and (max-width: 800px) and (min-width: 400px) {
+    h1{
+        color: rgb(0, 195, 255);
+    }
+    h1::after{
+        content: "tab";
+    }
+    p{
+        color: rgb(255, 247, 0);
+    }
+    body{
+        background-color: rgba(0, 255, 102, 0.156);
+    }
+    
+}
+
+
+

@@ -1,0 +1,110 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+ #box1{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    border: solid;
+    transform: translateX(0px); 
+/* animation-name: demo    ;
+    animation-duration: 10s; */
+
+    /* animation-name: example2;
+    animation-duration: 10s; */
+
+    ;
+    /* ~ define the lenght of time that an animtion takes to complete one cycle */
+    /* animation-iteration-count: 4s; */
+
+
+}
+
+/* @keyframes demo {
+    from{
+        height: 200px;
+        width: 200px;
+        background-color: royalblue;
+        border: solid;
+        transform: translateX(0px);
+    }
+    to{
+        height: 400px;
+        width: 400px;
+        background-color: red;
+        border: solid;
+        transform: translateX(200px);
+    }
+    
+} */
+
+body{
+    background-color: aqua;
+    animation: ex3 2s infinite;
+
+}
+
+/* @keyframes example2 {
+    0%   {background-color: royalblue;
+    transform: translate(0px , 0px) rotate(0deg) skew(2deg , 5deg);
+border-radius: 23%;}
+    25%  {background-color: red;
+        transform: translate(1000px , 0px) rotate(45deg)skew(3deg , 5deg);
+    border-radius: 56%;}
+    50%  {background-color: yellow;
+        transform: translate(1000px  , 380px) rotate(90deg)skew(7deg , 6deg)
+        ;
+    border-radius: 76%;}
+    75%  {background-color: green;
+        transform: translate(0px , 489px) rotate(180deg) skew(9deg , 15deg);
+    border-radius: 44%;}
+    100% {background-color: royalblue;
+        transform: translate(0px ,0px) rotate(360deg) skew(9deg , 1deg);;}
+    
+} */
+
+
+
+@keyframes ex3 {
+0%{
+    background-color: royalblue;
+   
+}
+10%{
+    background-color: rgb(61, 184, 255);
+   
+}
+20%{
+    background-color: rgb(0, 64, 5);
+   
+}
+30%{
+    background-color: rgb(78, 22, 22);
+   
+}
+40%{
+    background-color: rgb(190, 225, 65);
+   
+}
+50%{
+
+    background-color: rgb(212, 65, 225);
+   
+}
+60%{
+    background-color: rgba(225, 102, 65, 0.323);
+   
+}
+80%{
+    background-color: rgb(225, 217, 65);
+
+}
+90%{
+    background-color: rgb(65, 225, 108);    
+}
+100%{
+    background-color: rgb(182, 35, 35);
+}
+
+    
+}
